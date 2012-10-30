@@ -1,6 +1,6 @@
-chaiscript (5.0.0~precise1) precise; urgency=low
+chaiscript (4.0.0~precise1) precise; urgency=low
 
   [ Mark Friedenbach ]
-    * Initial release of Ubuntu PPA based on ChaiScript v5.0.0.
+    * Initial release of Ubuntu PPA based on ChaiScript v4.0.0.
 
  -- Mark Friedenbach <mark@monetize.io>  Mon, 29 Oct 2012 22:16:27 -0700
