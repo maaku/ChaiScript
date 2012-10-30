@@ -1,0 +1,16 @@
+Source: chaiscript
+Section: interpreters
+Priority: optional
+Maintainer: Jason Turner and Jonathan Turner <jason@emptycrate.com>
+Uploaders: Mark Friedenbach <mark@monetize.io>
+Build-Depends: debhelper, cdbs, cmake, pkg-config, libboost-all-dev (>= 1.36.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/ChaiScript/ChaiScript/
+Vcs-Git: git://github.com/ChaiScript/ChaiScript.git
+Vcs-Browser: https://github.com/ChaiScript/ChaiScript/
+
+Package: chaiscript
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Embedded dynamic language in C++
+ A JS-like language designed for embedding in C++ programs.
