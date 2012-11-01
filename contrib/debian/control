@@ -14,3 +14,17 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Embedded dynamic language in C++
  A JS-like language designed for embedding in C++ programs.
+
+Package: chaiscript-doc
+Architecture: any
+Depends: chaiscript
+Description: Embedded dynamic language in C++ (documentation and example files)
+ A JS-like language designed for embedding in C++ programs. Contains
+ documentation files and example code.
+
+Package: chaiscript-dev
+Architecture: any
+Depends: chaiscript
+Description: Embedded dynamic language in C++ (development files)
+ A JS-like language designed for embedding in C++ programs. Contains C++
+ headers, unit tests, and pkg-config files.

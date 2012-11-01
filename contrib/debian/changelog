@@ -1,6 +1,9 @@
-chaiscript (4.0.0+1alpha20120926~precise4) precise; urgency=low
+chaiscript (4.0.0+1alpha20120926~precise10) precise; urgency=low
 
   [ Mark Friedenbach ]
     * Initial release of Ubuntu PPA based on ChaiScript v4.0 trunk.
+    * Split debian packaging into three packages: chaiscript (chai binary and
+      library files), chaiscript-doc (documentation and sample files), and
+      chaiscript-dev (pkg-config, header files, and unit tests).
 
- -- Mark Friedenbach <mark@monetize.io>  Mon, 29 Oct 2012 22:16:27 -0700
+ -- Mark Friedenbach <mark@monetize.io>  Fri, 2 Nov 2012 11:50:06 -0700

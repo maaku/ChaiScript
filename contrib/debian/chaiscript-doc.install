@@ -1,0 +1,4 @@
+usr/share/chaiscript/samples/*
+description.txt usr/share/doc/chaiscript
+readme.md usr/share/doc/chaiscript
+releasenotes.txt usr/share/doc/chaiscript

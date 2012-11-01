@@ -1,0 +1,3 @@
+usr/lib/pkgconfig/chaiscript.pc
+usr/share/chaiscript/unittests/*
+usr/include/chaiscript/*
