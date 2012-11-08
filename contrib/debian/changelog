@@ -1,3 +1,12 @@
+chaiscript (4.0.0+1alpha20121107~precise1) precise; urgency=low
+
+  [ Jason Turner ]
+    * Add support for string::substr (fixes GH #75).
+    * Prevent leaking macros (fixes GH #76).
+    * Add ability to specify number prefixes for floating point and integers.
+
+ -- Mark Friedenbach <mark@monetize.io>  Wed, 7 Nov 2012 22:20:03 -0700
+
 chaiscript (4.0.0+1alpha20120926~precise10) precise; urgency=low
 
   [ Mark Friedenbach ]
